@@ -1,5 +1,5 @@
 //
-//  S3FileUploadSignv4iOSTests.swift
+//  MACSHA256Tests.swift
 //  S3FileUploadSignv4iOSTests
 //
 //  Created by Avadesh Kumar on 11/10/18.
@@ -7,9 +7,8 @@
 //
 
 import XCTest
-@testable import S3FileUploadSignv4iOS
 
-class S3FileUploadSignv4iOSTests: XCTestCase {
+class MACSHA256Tests: XCTestCase {
     
     override func setUp() {
         super.setUp()
