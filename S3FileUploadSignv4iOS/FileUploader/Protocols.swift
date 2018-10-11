@@ -7,3 +7,14 @@
 //
 
 import Foundation
+
+
+protocol RequestBuildable {
+    func request(with data: Data, uploadPath: String) -> URLRequest?
+}
+
+protocol S3Encodeable {
+    func getCredential(from date: Date) -> String
+    func getAmazonSignature(from date: Date, policy: String) -> String
+    func getPolicyWith(amzDate: String, credentials: String, tokenExpiry: String, policyExpiryHours: TimeInterval) -> String?
+}

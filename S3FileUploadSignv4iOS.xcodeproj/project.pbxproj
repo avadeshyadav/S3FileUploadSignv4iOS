@@ -12,7 +12,16 @@
 		D7DF1ED7216F162C0029A707 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7DF1ED5216F162C0029A707 /* Main.storyboard */; };
 		D7DF1ED9216F16330029A707 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7DF1ED8216F16330029A707 /* Assets.xcassets */; };
 		D7DF1EDC216F16330029A707 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7DF1EDA216F16330029A707 /* LaunchScreen.storyboard */; };
-		D7DF1EE7216F16330029A707 /* S3FileUploadSignv4iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DF1EE6216F16330029A707 /* S3FileUploadSignv4iOSTests.swift */; };
+		D7DF1EF3216F16E60029A707 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DF1EF2216F16E60029A707 /* Extensions.swift */; };
+		D7DF1EF5216F16F30029A707 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DF1EF4216F16F30029A707 /* Protocols.swift */; };
+		D7DF1EF7216F17100029A707 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DF1EF6216F17100029A707 /* Constants.swift */; };
+		D7DF1EF9216F172C0029A707 /* RequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DF1EF8216F172C0029A707 /* RequestBuilder.swift */; };
+		D7DF1EFB216F17AC0029A707 /* S3Encoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DF1EFA216F17AC0029A707 /* S3Encoder.swift */; };
+		D7DF1EFD216F17F80029A707 /* HMACSHA256.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DF1EFC216F17F80029A707 /* HMACSHA256.swift */; };
+		D7DF1F05216F1F160029A707 /* myImage1.zip in Resources */ = {isa = PBXBuildFile; fileRef = D7DF1F04216F1F160029A707 /* myImage1.zip */; };
+		D7DF1F07216F21370029A707 /* MACSHA256Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DF1F06216F21370029A707 /* MACSHA256Tests.swift */; };
+		D7DF1F09216F22470029A707 /* DateExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DF1F08216F22470029A707 /* DateExtensionTests.swift */; };
+		D7DF1F0B216F22D30029A707 /* S3EncoderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DF1F0A216F22D30029A707 /* S3EncoderTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,8 +43,18 @@
 		D7DF1EDB216F16330029A707 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D7DF1EDD216F16330029A707 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D7DF1EE2216F16330029A707 /* S3FileUploadSignv4iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = S3FileUploadSignv4iOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D7DF1EE6216F16330029A707 /* S3FileUploadSignv4iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = S3FileUploadSignv4iOSTests.swift; sourceTree = "<group>"; };
 		D7DF1EE8216F16330029A707 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7DF1EF2216F16E60029A707 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		D7DF1EF4216F16F30029A707 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		D7DF1EF6216F17100029A707 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D7DF1EF8216F172C0029A707 /* RequestBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestBuilder.swift; sourceTree = "<group>"; };
+		D7DF1EFA216F17AC0029A707 /* S3Encoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = S3Encoder.swift; sourceTree = "<group>"; };
+		D7DF1EFC216F17F80029A707 /* HMACSHA256.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HMACSHA256.swift; sourceTree = "<group>"; };
+		D7DF1F03216F188D0029A707 /* S3FileUploadSignv4iOS-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "S3FileUploadSignv4iOS-Bridging-Header.h"; sourceTree = "<group>"; };
+		D7DF1F04216F1F160029A707 /* myImage1.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = myImage1.zip; sourceTree = "<group>"; };
+		D7DF1F06216F21370029A707 /* MACSHA256Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MACSHA256Tests.swift; sourceTree = "<group>"; };
+		D7DF1F08216F22470029A707 /* DateExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtensionTests.swift; sourceTree = "<group>"; };
+		D7DF1F0A216F22D30029A707 /* S3EncoderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = S3EncoderTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +96,15 @@
 		D7DF1ED0216F162C0029A707 /* S3FileUploadSignv4iOS */ = {
 			isa = PBXGroup;
 			children = (
+				D7DF1EF1216F166D0029A707 /* FileUploader */,
 				D7DF1ED1216F162C0029A707 /* AppDelegate.swift */,
 				D7DF1ED3216F162C0029A707 /* ViewController.swift */,
+				D7DF1F04216F1F160029A707 /* myImage1.zip */,
 				D7DF1ED5216F162C0029A707 /* Main.storyboard */,
 				D7DF1ED8216F16330029A707 /* Assets.xcassets */,
 				D7DF1EDA216F16330029A707 /* LaunchScreen.storyboard */,
 				D7DF1EDD216F16330029A707 /* Info.plist */,
+				D7DF1F03216F188D0029A707 /* S3FileUploadSignv4iOS-Bridging-Header.h */,
 			);
 			path = S3FileUploadSignv4iOS;
 			sourceTree = "<group>";
@@ -90,10 +112,25 @@
 		D7DF1EE5216F16330029A707 /* S3FileUploadSignv4iOSTests */ = {
 			isa = PBXGroup;
 			children = (
-				D7DF1EE6216F16330029A707 /* S3FileUploadSignv4iOSTests.swift */,
 				D7DF1EE8216F16330029A707 /* Info.plist */,
+				D7DF1F06216F21370029A707 /* MACSHA256Tests.swift */,
+				D7DF1F08216F22470029A707 /* DateExtensionTests.swift */,
+				D7DF1F0A216F22D30029A707 /* S3EncoderTests.swift */,
 			);
 			path = S3FileUploadSignv4iOSTests;
+			sourceTree = "<group>";
+		};
+		D7DF1EF1216F166D0029A707 /* FileUploader */ = {
+			isa = PBXGroup;
+			children = (
+				D7DF1EF2216F16E60029A707 /* Extensions.swift */,
+				D7DF1EF4216F16F30029A707 /* Protocols.swift */,
+				D7DF1EF6216F17100029A707 /* Constants.swift */,
+				D7DF1EF8216F172C0029A707 /* RequestBuilder.swift */,
+				D7DF1EFA216F17AC0029A707 /* S3Encoder.swift */,
+				D7DF1EFC216F17F80029A707 /* HMACSHA256.swift */,
+			);
+			path = FileUploader;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,6 +183,7 @@
 				TargetAttributes = {
 					D7DF1ECD216F162C0029A707 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
 					};
 					D7DF1EE1216F16330029A707 = {
 						CreatedOnToolsVersion = 9.4.1;
@@ -180,6 +218,7 @@
 				D7DF1EDC216F16330029A707 /* LaunchScreen.storyboard in Resources */,
 				D7DF1ED9216F16330029A707 /* Assets.xcassets in Resources */,
 				D7DF1ED7216F162C0029A707 /* Main.storyboard in Resources */,
+				D7DF1F05216F1F160029A707 /* myImage1.zip in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,8 +236,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7DF1EF7216F17100029A707 /* Constants.swift in Sources */,
 				D7DF1ED4216F162C0029A707 /* ViewController.swift in Sources */,
+				D7DF1EFB216F17AC0029A707 /* S3Encoder.swift in Sources */,
+				D7DF1EF3216F16E60029A707 /* Extensions.swift in Sources */,
+				D7DF1EF9216F172C0029A707 /* RequestBuilder.swift in Sources */,
+				D7DF1EFD216F17F80029A707 /* HMACSHA256.swift in Sources */,
 				D7DF1ED2216F162C0029A707 /* AppDelegate.swift in Sources */,
+				D7DF1EF5216F16F30029A707 /* Protocols.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,7 +251,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D7DF1EE7216F16330029A707 /* S3FileUploadSignv4iOSTests.swift in Sources */,
+				D7DF1F0B216F22D30029A707 /* S3EncoderTests.swift in Sources */,
+				D7DF1F07216F21370029A707 /* MACSHA256Tests.swift in Sources */,
+				D7DF1F09216F22470029A707 /* DateExtensionTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,6 +405,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = S3FileUploadSignv4iOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -366,6 +414,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.avadesh.S3FileUploadSignv4iOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "S3FileUploadSignv4iOS/S3FileUploadSignv4iOS-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -375,6 +425,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = S3FileUploadSignv4iOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -383,6 +434,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.avadesh.S3FileUploadSignv4iOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "S3FileUploadSignv4iOS/S3FileUploadSignv4iOS-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
